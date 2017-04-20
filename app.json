@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/swipeTab/swipeTab"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2d80ff",
+    "navigationBarTitleText": "scrollableTabView",
+    "navigationBarTextStyle": "white"
+  }
+}
