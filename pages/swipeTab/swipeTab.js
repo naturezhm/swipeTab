@@ -50,7 +50,7 @@ Page({
     tab_config.underline.offset = underline_offset;
     if (!tab_config.fixed) {
       // 如果tab不是固定的 就要 检测tab是否被遮挡
-      let show_item_num = Math.round(window_width / tab_config.item_width); // 一个界面完整显示的tab item个数
+      let show_item_num = Math.floor(window_width / tab_config.item_width); // 一个界面完整显示的tab item个数
       let min_left_item = tab_config.item_width * (page - show_item_num + 1); // 最小scroll-left 
       let max_left_item = tab_config.item_width * page; //  最大scroll-left
       if (tab_config.tab_left < min_left_item || tab_config.tab_left > max_left_item) {
